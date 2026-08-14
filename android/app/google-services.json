@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "958632865348",
+    "project_id": "lambs-ad95d",
+    "storage_bucket": "lambs-ad95d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:958632865348:android:8b30b2f845235db27c1611",
+        "android_client_info": {
+          "package_name": "com.Lambs.sh"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2CChYRBcKjGLmz8I3y_KX-xeZdokg-es"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
