@@ -1,4 +1,4 @@
-package com.Lambs.sh
+package com.sh.selt
 
 import android.app.Application
 import com.facebook.react.PackageList

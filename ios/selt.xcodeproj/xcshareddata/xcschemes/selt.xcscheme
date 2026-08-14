@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "Lambs.app"
-               BlueprintName = "Lambs"
-               ReferencedContainer = "container:Lambs.xcodeproj">
+               BuildableName = "selt.app"
+               BlueprintName = "selt"
+               ReferencedContainer = "container:selt.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "LambsTests.xctest"
-               BlueprintName = "LambsTests"
-               ReferencedContainer = "container:Lambs.xcodeproj">
+               BuildableName = "seltTests.xctest"
+               BlueprintName = "seltTests"
+               ReferencedContainer = "container:selt.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "Lambs.app"
-            BlueprintName = "Lambs"
-            ReferencedContainer = "container:Lambs.xcodeproj">
+            BuildableName = "selt.app"
+            BlueprintName = "selt"
+            ReferencedContainer = "container:selt.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "Lambs.app"
-            BlueprintName = "Lambs"
-            ReferencedContainer = "container:Lambs.xcodeproj">
+            BuildableName = "selt.app"
+            BlueprintName = "selt"
+            ReferencedContainer = "container:selt.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

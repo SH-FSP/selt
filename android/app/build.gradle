@@ -78,9 +78,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "com.Lambs.sh"
+    namespace "com.sh.selt"
     defaultConfig {
-        applicationId "com.Lambs.sh"
+        applicationId "com.sh.selt"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
