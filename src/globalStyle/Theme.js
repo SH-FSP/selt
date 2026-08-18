@@ -9,15 +9,14 @@ const IMAGEONLOADCOLOR = {
 
 const COLORS = {
   mainBg: '#FFFFFF',
-  primary: '#152E77',
-  primary100: '#D8A44A',
-  secondary: '#001D3F',
+  primary: '#8E1017',
+  primary100: '#C9252D', // primary shade — accents / highlights
+  secondary: '#FFFFFF',
+  tertiary: '#AE1820',
 
-  //Blue Variants:
-  blue100: '#010D7C',
-  blue200: '#000855',
-
-  //Green Variants:
+  // Red surface variants (replacing old blue chrome):
+  blue100: '#AE1820',
+  blue200: '#6B0C12',
 
   //Black Variants:
   black100: '#000000',

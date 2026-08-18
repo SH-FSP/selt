@@ -3,10 +3,9 @@ import React from 'react';
 
 //-----------
 import { Container, Flex, Typography } from '../../atomComponents';
-import { MainLogoSvg } from '../../assets/svgs';
 import Sizer from '../../helpers/Sizer';
 import InputLabel from '../../components/customFields/InputLabel';
-import { Button, Header, TextField } from '../../components';
+import { BrandLogo, Button, Header, TextField } from '../../components';
 import { COLORS } from '../../globalStyle/Theme';
 import FormController from '../../components/formController/FormController';
 import validatoinSchema from '../../validations';
@@ -41,7 +40,13 @@ const SignupScreen = ({ navigation }) => {
       <Header
         isBackVisible
         centerType="goback"
-        CenterComponent={<MainLogoSvg width={182} height={85} />}
+        CenterComponent={
+          <BrandLogo
+            variant="red"
+            width={Sizer.hSize(182)}
+            height={Sizer.vSize(85)}
+          />
+        }
       />
       <ScrollView
         showsVerticalScrollIndicator={false}

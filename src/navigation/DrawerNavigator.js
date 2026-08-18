@@ -42,7 +42,7 @@ export default function DrawerNavigator() {
           backgroundColor: COLORS.blue200,
           width: '75%',
         },
-        overlayColor: `rgba(0,8,85, .3)`,
+          overlayColor: `rgba(142, 16, 23, .3)`,
         swipeEnabled: false,
       }}
       drawerContent={props => <CustomDrawerContent {...props} />}

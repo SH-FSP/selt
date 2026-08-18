@@ -1,18 +1,16 @@
-import { Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { StyleSheet, TouchableOpacity, View } from 'react-native';
 import React from 'react';
 import { useNavigation } from '@react-navigation/native';
 import Entypo from 'react-native-vector-icons/Entypo';
 //-------------
 import { Flex, Typography } from '../../atomComponents';
 import Icon from '../../helpers/Icon';
-import { BASEOPACITY, COLORS, WINDOW } from '../../globalStyle/Theme';
+import { BASEOPACITY, COLORS } from '../../globalStyle/Theme';
 import Sizer from '../../helpers/Sizer';
-import { MainLogoSvg } from '../../assets/svgs';
-import MainLogoSvgGreyed from '../../assets/svgs/MainLogoSvgGreyed';
+import BrandLogo from '../BrandLogo';
 import HamBurgerSvg from '../../assets/svgs/HamBurgerSvg';
 import BellSvg from '../../assets/svgs/BellSvg';
 import HomeHeaderLineSvg from '../../assets/svgs/HomeHeaderLineSvg';
-// import {edit} from '../../assets/images';
 
 const Header = ({
   type = '',
@@ -43,7 +41,11 @@ const Header = ({
             mB={14}
           >
             <HamBurgerSvg onPress={() => navigation.toggleDrawer()} />
-            <MainLogoSvgGreyed />
+            <BrandLogo
+              variant="white"
+              width={Sizer.hSize(160)}
+              height={Sizer.vSize(56)}
+            />
             <BellSvg
               onPress={() => navigation.navigate('NotificationScreen')}
             />
@@ -75,7 +77,7 @@ const Header = ({
             }}
           >
             <Icon
-              color={iconColor}
+              color={COLORS.primary}
               iconFamily={'Ionicons'}
               size={Sizer.vSize(20)}
               name={'arrow-back'}
@@ -110,11 +112,10 @@ const Header = ({
                 styles.backButton,
                 {
                   backgroundColor: isBackGreen
-                    ? COLORS.secondary
+                    ? COLORS.tertiary
                     : COLORS.primary,
-                  // Center vertically within the row
                   top: '50%',
-                  marginTop: -Sizer.vSize(18), // Half of back button height (approx 36)
+                  marginTop: -Sizer.vSize(18),
                 },
               ]}
             >
@@ -152,7 +153,7 @@ const Header = ({
           }}
           onPress={onPressRight}
         >
-          <Entypo name="chat" size={Sizer.fS(18)} color={COLORS.white100} />
+          <Entypo name="chat" size={Sizer.fS(18)} color={COLORS.primary} />
         </TouchableOpacity>
       )}
     </View>
@@ -167,12 +168,10 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     width: '100%',
     overflow: 'hidden',
-    // backgroundColor:'red'
   },
   HomeHeaderStyle: {
     width: '100%',
     backgroundColor: COLORS.blue100,
-    // paddingTop: Sizer.vSize(32),
     borderBottomLeftRadius: Sizer.fS(24),
     borderBottomRightRadius: Sizer.fS(24),
     height: Sizer.vSize(144),

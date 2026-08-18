@@ -52,4 +52,6 @@ export { default as uncheckaddon } from '../images/uncheckaddon.png';
 export { default as checkedaddon } from '../images/checkedaddon.png';
 
 export { default as play } from '../images/play.png';
-export { default as clientImage } from '../images/client.jpeg';
+
+export { default as mainLogoRed } from '../images/main-logo-red.png';
+export { default as mainLogoWhite } from '../images/main-logo-white.png';

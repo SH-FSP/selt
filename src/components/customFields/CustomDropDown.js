@@ -74,7 +74,7 @@ const styles = StyleSheet.create({
     fontSize: Sizer.fS(13),
   },
   listContainer: {
-    backgroundColor: COLORS.secondary,
+    backgroundColor: COLORS.primary,
     borderWidth: 0,
     borderRadius: 6,
   },

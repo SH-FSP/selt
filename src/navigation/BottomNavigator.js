@@ -4,7 +4,6 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { useKeyboard } from '../hooks/useKeyboard';
 import { COLORS } from '../globalStyle/Theme';
 import {
-  AdvisorScreen,
   BookingScreen,
   AdminChatScreen,
   HomeScreen,
@@ -37,11 +36,6 @@ const BottomNavigator = () => {
         name="Booking"
         component={BookingScreen}
         options={{ sceneStyle: styles.lightScene }}
-      />
-      <Tab.Screen
-        name="Advisor"
-        component={AdvisorScreen}
-        options={{ sceneStyle: styles.darkScene, tabBarLabel: 'Advisor' }}
       />
       <Tab.Screen
         name="Chat"

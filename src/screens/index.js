@@ -24,7 +24,6 @@ import BookingChatScreen from './Main/Chat/BookingChatScreen';
 import ServicePhotosScreen from './Main/Services/ServicePhotosScreen';
 import ServiceReviewsScreen from './Main/Services/ServiceReviewsScreen';
 import PostReviewScreen from './Main/Review/PostReviewScreen';
-import AdvisorScreen from './Main/Advisor/AdvisorScreen';
 
 export {
   SplashScreen,
@@ -55,5 +54,4 @@ export {
   EditProfileScreen,
   AllServiceScreen,
   BookingSuccessScreen,
-  AdvisorScreen,
 };

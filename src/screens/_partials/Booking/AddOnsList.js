@@ -23,7 +23,7 @@ const AddOnsList = ({addonsData = [], onSelectAdOn, selectedAddon}) => {
               jusContent="space-between"
               extraStyle={{
                 backgroundColor: isSelected
-                  ? COLORS.secondary
+                  ? COLORS.primary
                   : COLORS.white300,
                 ...styles.addOnStyle,
               }}>

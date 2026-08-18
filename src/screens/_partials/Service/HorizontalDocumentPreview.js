@@ -61,10 +61,10 @@ const HorizontalDocumentPreview = ({
           paddingVertical: 8,
           paddingHorizontal: 8,
         }}>
-        <Icon name="plus-circle" size={24} color="#014220" />
+        <Icon name="plus-circle" size={24} color={COLORS.primary} />
         <Typography
           mT={6}
-          color="#014220"
+          color={COLORS.primary}
           numberOfLines={1}
           adjustsFontSizeToFit>
           Add Images
@@ -143,7 +143,7 @@ const styles = StyleSheet.create({
     top: 0,
     right: -5,
     zIndex: 10,
-    backgroundColor: COLORS.secondary,
+    backgroundColor: COLORS.primary,
     borderRadius: 10,
   },
 });

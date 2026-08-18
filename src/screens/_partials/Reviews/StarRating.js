@@ -7,7 +7,7 @@ import {COLORS} from '../../../globalStyle/Theme';
 const StarRating = ({
   size = 32,
   ratingMargin = 12,
-  starColor = COLORS.secondary,
+  starColor = COLORS.primary100,
   allowRate = false,
   ratingStar = 0,
   onPressRating = () => {},

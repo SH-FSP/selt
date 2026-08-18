@@ -5,11 +5,10 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useDispatch } from 'react-redux';
 //-----------
 import { Container, Flex, Typography } from '../../atomComponents';
-import { MainLogoSvg } from '../../assets/svgs';
 import { wave } from '../../assets/images';
 import Sizer from '../../helpers/Sizer';
 import InputLabel from '../../components/customFields/InputLabel';
-import { Button, Header, TextField } from '../../components';
+import { BrandLogo, Button, Header, TextField } from '../../components';
 import { COLORS, GLOBALSTYLE } from '../../globalStyle/Theme';
 import FormController from '../../components/formController/FormController';
 import validatoinSchema from '../../validations';
@@ -47,7 +46,13 @@ const LoginScreen = ({ navigation }) => {
       <Header
         isBackVisible={false}
         centerType="goback"
-        CenterComponent={<MainLogoSvg width={182} height={85} />}
+        CenterComponent={
+          <BrandLogo
+            variant="red"
+            width={Sizer.hSize(182)}
+            height={Sizer.vSize(85)}
+          />
+        }
       />
       <ScrollView
         showsVerticalScrollIndicator={false}

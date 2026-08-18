@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react';
-import { ImageBackground, StyleSheet, View } from 'react-native';
+import { StyleSheet } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useDispatch } from 'react-redux';
 // --------
-import { Container, Typography } from '../../atomComponents';
+import { Container } from '../../atomComponents';
 import SlideInView from '../../animations/SlideView';
-import { AppIconSvg, AppLogoSvg } from '../../assets/svgs';
+import BrandLogo from '../../components/BrandLogo';
 import Sizer from '../../helpers/Sizer';
 import { KEYS } from '../../constants';
 import { useCustomMutation } from '../../query/useCustomMutation';
@@ -16,7 +16,6 @@ import {
 } from '../../query/partials/responseManager';
 import { handleLogout } from '../../redux/slices/appSlice';
 import { socialLogin } from '../../api/socialService';
-import { COLORS } from '../../globalStyle/Theme';
 import { SplashBg } from '../../assets/images';
 
 
@@ -91,7 +90,11 @@ const SplashScreen = ({ navigation }) => {
   return (
     <Container conStyle={styles.container} isPaddingVertical={false} isTextureVisible textureSoruce={SplashBg}>
       <SlideInView slide="right" slideDuration={700}>
-        <AppIconSvg />
+        <BrandLogo
+          variant="white"
+          width={Sizer.hSize(220)}
+          height={Sizer.vSize(100)}
+        />
       </SlideInView>
     </Container>
   );

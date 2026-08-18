@@ -126,7 +126,7 @@ const AppointmentBookingScreen = ({ navigation, route }) => {
             [today]: {
               customStyles: {
                 text: {
-                  color: COLORS.secondary,
+                  color: COLORS.primary,
                   fontFamily: FONTS.poppinsSemiBold600,
                 },
               },

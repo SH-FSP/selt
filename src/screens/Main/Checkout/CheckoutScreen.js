@@ -200,7 +200,7 @@ const CheckoutScreen = ({ navigation, route }) => {
             <StarRating
               size={12}
               ratingMargin={2}
-              starColor="#ffcda5"
+              starColor={COLORS.primary100}
               ratingStar={reviews?.[0]?.star}
               marginTop={0}
             />

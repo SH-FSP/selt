@@ -28,7 +28,7 @@ const PaymentSuccessScreen = () => {
           onPress={() =>
             navigation.replace('DrawerTabs', {screen: 'BottomTabs'})
           }>
-          <Text style={[styles.buttonText, {color: COLORS.secondary}]}>
+          <Text style={[styles.buttonText, {color: COLORS.primary}]}>
             Back to Home
           </Text>
         </TouchableOpacity>

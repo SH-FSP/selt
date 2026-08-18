@@ -5,16 +5,20 @@ import React from 'react';
 import { Container, Flex, Typography } from '../../atomComponents';
 import Sizer from '../../helpers/Sizer';
 import { BASEOPACITY, COLORS } from '../../globalStyle/Theme';
-import { MainLogoSvg } from '../../assets/svgs';
 import { authMethods } from '../../constants/AppData';
 import { email } from '../../assets/images';
 import SocialButtons from '../../components/customButtons/SocialButtons';
+import BrandLogo from '../../components/BrandLogo';
 
 const GetStartedScreen = ({ navigation }) => {
   return (
     <Container isTextureVisible>
       <Flex direction={'column'} algItems={'center'}>
-        <MainLogoSvg />
+        <BrandLogo
+          variant="red"
+          width={Sizer.hSize(182)}
+          height={Sizer.vSize(85)}
+        />
         <Typography
           size={32}
           fFamily="interTightSemiBold600"

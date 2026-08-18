@@ -150,7 +150,7 @@ const styles = StyleSheet.create({
     borderRadius: Sizer.hSize(35),
     marginRight: Sizer.vSize(12),
     borderWidth: Sizer.fS(2),
-    borderColor: COLORS.secondary,
+    borderColor: COLORS.primary,
     boxSizing: 'content-box',
   },
   cont: {

@@ -86,7 +86,7 @@ const TextField = React.forwardRef(
     // Determine label color based on state
     const getLabelColor = () => {
       if (isFocus) return COLORS.primary;
-      if (value) return COLORS.secondary;
+      if (value) return COLORS.primary;
       return COLORS.grey200;
     };
 
@@ -165,7 +165,7 @@ const TextField = React.forwardRef(
                 >
                   <MaterialCommunityIcons
                     size={Sizer.fS(19)}
-                    color={isFocus ? COLORS.secondary : leftIconInActiveColor}
+                    color={isFocus ? COLORS.primary : leftIconInActiveColor}
                     name={hidePass ? 'eye-off-outline' : 'eye-outline'}
                   />
                 </Pressable>

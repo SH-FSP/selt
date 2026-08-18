@@ -19,9 +19,9 @@ function HomeHeaderLineSvg(props) {
           x2={327}
           y2={1}
           gradientUnits="userSpaceOnUse">
-          <Stop offset={0.0865385} stopColor="#014220" />
+          <Stop offset={0.0865385} stopColor="#8E1017" />
           <Stop offset={0.523058} stopColor="#fff" />
-          <Stop offset={0.908654} stopColor="#014220" />
+          <Stop offset={0.908654} stopColor="#8E1017" />
         </LinearGradient>
       </Defs>
     </Svg>
