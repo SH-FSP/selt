@@ -1,6 +1,6 @@
-export { default as onboard01 } from '../images/onboard01.jpg';
-export { default as onboard02 } from '../images/onboard02.jpg';
-export { default as onboard03 } from '../images/onboard03.jpg';
+export { default as onboard01 } from '../images/onboard01.png';
+export { default as onboard02 } from '../images/onboard02.png';
+export { default as onboard03 } from '../images/onboard03.png';
 export { default as onboardtextBg } from '../images/onboardtextBg.png';
 export { default as SplashBg } from '../images/SplashBg.png';
 

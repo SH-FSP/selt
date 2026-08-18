@@ -68,7 +68,10 @@ const RootStack = () => {
   };
 
   useEffect(() => {
+
     (async () => {
+      AsyncStorage.clear();
+
       let fcmToken = await AsyncStorage.getItem(KEYS.FCM_TOKEN);
       __DEV__ && console.log(' RootStack:83 ~ fcmToken:', !!fcmToken);
 
