@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		039928C711FCA09F4F5BB0BE /* Pods_Lambs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66D24BD885B56009284B2AC0 /* Pods_Lambs.framework */; };
+		06E92224CA5CDD4FB7288E15 /* Pods_selt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49466A41081ABAA26A78A25F /* Pods_selt.framework */; };
 		0D235B7904D8495781B4C932 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0511317DC7F41D7A4FCFB7E /* Poppins-SemiBold.ttf */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		18037BCA2F5A34FF0023DD2E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18037BC92F5A34FF0023DD2E /* GoogleService-Info.plist */; };
@@ -26,9 +26,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		13B07F961A680F5B00A75B9A /* selt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "selt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "selt/Images.xcassets"; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "selt/Info.plist"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* selt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = selt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = selt/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = selt/Info.plist; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = selt/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		18037BC92F5A34FF0023DD2E /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		183D78C385D54163B03A9A28 /* Urbanist-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Urbanist-Bold.ttf"; path = "../src/assets/fonts/Urbanist-Bold.ttf"; sourceTree = "<group>"; };
@@ -37,10 +37,10 @@
 		3B4392A12AC88292D35C810B /* Pods-selt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-selt.debug.xcconfig"; path = "Target Support Files/Pods-selt/Pods-selt.debug.xcconfig"; sourceTree = "<group>"; };
 		3E5FBA71F8C942C59E9F33F0 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-SemiBold.ttf"; path = "../src/assets/fonts/Inter-SemiBold.ttf"; sourceTree = "<group>"; };
 		472A38466A624526B62461E9 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Bold.ttf"; path = "../src/assets/fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		49466A41081ABAA26A78A25F /* Pods_selt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_selt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5709B34CF0A7D63546082F79 /* Pods-selt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-selt.release.xcconfig"; path = "Target Support Files/Pods-selt/Pods-selt.release.xcconfig"; sourceTree = "<group>"; };
-		66D24BD885B56009284B2AC0 /* Pods_Lambs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lambs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = selt/AppDelegate.swift; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "selt/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = selt/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84A0EFAAF77A4AA6A808A49B /* Urbanist-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Urbanist-Medium.ttf"; path = "../src/assets/fonts/Urbanist-Medium.ttf"; sourceTree = "<group>"; };
 		B9C5B4475C0D4A96AC474191 /* InterTight-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "InterTight-SemiBold.ttf"; path = "../src/assets/fonts/InterTight-SemiBold.ttf"; sourceTree = "<group>"; };
 		E80ED70F824E428FB9CE9AD9 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Regular.ttf"; path = "../src/assets/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				039928C711FCA09F4F5BB0BE /* Pods_Lambs.framework in Frameworks */,
+				06E92224CA5CDD4FB7288E15 /* Pods_selt.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,14 +71,14 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
 			);
-			name = "selt";
+			name = selt;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				66D24BD885B56009284B2AC0 /* Pods_Lambs.framework */,
+				49466A41081ABAA26A78A25F /* Pods_selt.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -159,8 +159,8 @@
 			);
 			dependencies = (
 			);
-			name = "selt";
-			productName = "selt";
+			name = selt;
+			productName = selt;
 			productReference = 13B07F961A680F5B00A75B9A /* selt.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -328,8 +328,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = F685S338YJ;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = "selt/Info.plist";
-             INFOPLIST_KEY_CFBundleDisplayName = "selt";
+				INFOPLIST_FILE = selt/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = selt;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -342,8 +341,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sh.selt";
-				PRODUCT_NAME = "selt";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sh.selt;
+				PRODUCT_NAME = selt;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -363,8 +362,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = F685S338YJ;
-				INFOPLIST_FILE = "selt/Info.plist";
-             INFOPLIST_KEY_CFBundleDisplayName = "selt";
+				INFOPLIST_FILE = selt/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = selt;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -377,8 +375,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sh.selt";
-				PRODUCT_NAME = "selt";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sh.selt;
+				PRODUCT_NAME = selt;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
