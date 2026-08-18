@@ -16,8 +16,7 @@ import {
 } from '../../query/partials/responseManager';
 import { handleLogout } from '../../redux/slices/appSlice';
 import { socialLogin } from '../../api/socialService';
-import { SplashBg } from '../../assets/images';
-
+import { COLORS } from '../../globalStyle/Theme';
 
 const SplashScreen = ({ navigation }) => {
   const dispatch = useDispatch();
@@ -88,12 +87,16 @@ const SplashScreen = ({ navigation }) => {
   };
 
   return (
-    <Container conStyle={styles.container} isPaddingVertical={false} isTextureVisible textureSoruce={SplashBg}>
+    <Container
+      conStyle={styles.container}
+      isPaddingVertical={false}
+      isPadding={false}
+    >
       <SlideInView slide="right" slideDuration={700}>
         <BrandLogo
           variant="white"
-          width={Sizer.hSize(220)}
-          height={Sizer.vSize(100)}
+          width={Sizer.hSize(240)}
+          height={Sizer.vSize(110)}
         />
       </SlideInView>
     </Container>
@@ -102,11 +105,10 @@ const SplashScreen = ({ navigation }) => {
 
 const styles = StyleSheet.create({
   container: {
+    flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-  },
-  margin: {
-    marginTop: Sizer.vSize(8),
+    backgroundColor: COLORS.primary,
   },
 });
 

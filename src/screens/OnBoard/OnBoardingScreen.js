@@ -1,4 +1,4 @@
-import { ImageBackground, StyleSheet, Text, View } from 'react-native';
+import { ImageBackground, StyleSheet, View } from 'react-native';
 import React, { useState, useEffect } from 'react';
 import Animated, {
   useSharedValue,
@@ -7,25 +7,18 @@ import Animated, {
   withSpring,
   withDelay,
   Easing,
-  runOnJS,
 } from 'react-native-reanimated';
 // ----
 import { Container, Flex, Typography } from '../../atomComponents';
-import {
-  onboard01,
-  onboard02,
-  onboard03,
-  onboardtextBg,
-} from '../../assets/images';
+import { onboard01, onboard02, onboard03 } from '../../assets/images';
 import Sizer from '../../helpers/Sizer';
-import { Button } from '../../components';
-import { COLORS, GLOBALSTYLE, WINDOW } from '../../globalStyle/Theme';
+import { BrandLogo, Button } from '../../components';
+import { COLORS, GLOBALSTYLE } from '../../globalStyle/Theme';
 import { KEYS } from '../../constants';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const AnimatedImageBackground =
   Animated.createAnimatedComponent(ImageBackground);
-const AnimatedTypography = Animated.createAnimatedComponent(Typography);
 
 const OnBoardingScreen = ({ navigation }) => {
   const [currentIndex, setCurentIndex] = useState(0);
@@ -44,8 +37,8 @@ const OnBoardingScreen = ({ navigation }) => {
     2: onboard03,
   };
   const text = {
-    0: "Welcome to Lamb’s Business Solution",
-    1: 'Built on Experience & Integrity',
+    0: 'Welcome to Storey Enterprises',
+    1: 'Logistics & Transport You Can Trust',
     2: 'Services Designed for You',
   };
   const dots = [0, 1, 2];
@@ -178,11 +171,15 @@ const OnBoardingScreen = ({ navigation }) => {
         resizeMode="cover"
         style={[styles.mainBg, backgroundStyle]}
       >
-        <ImageBackground
-          resizeMode="stretch"
-          source={onboardtextBg}
-          style={styles.textBgCont}
-        >
+        <View style={styles.brandOverlay} pointerEvents="none">
+          <BrandLogo
+            variant="white"
+            width={Sizer.hSize(160)}
+            height={Sizer.vSize(56)}
+          />
+        </View>
+
+        <View style={styles.textBgCont}>
           <Animated.View style={textContainerStyle}>
             <Typography
               fFamily="interTightSemiBold600"
@@ -215,12 +212,14 @@ const OnBoardingScreen = ({ navigation }) => {
             style={[buttonStyle, { width: '100%', marginTop: 30 }]}
           >
             <Button
-              label="Next"
+              label={currentIndex === 2 ? 'Get Started' : 'Next'}
               btnStyle={{ width: '100%' }}
+              bgColor={COLORS.secondary}
+              textColor={COLORS.primary}
               onPress={handleNext}
             />
           </Animated.View>
-        </ImageBackground>
+        </View>
       </AnimatedImageBackground>
     </Container>
   );
@@ -273,6 +272,14 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'flex-end',
   },
+  brandOverlay: {
+    position: 'absolute',
+    top: Sizer.vSize(56),
+    left: 0,
+    right: 0,
+    alignItems: 'center',
+    zIndex: 2,
+  },
   textBgCont: {
     backgroundColor: COLORS.primary,
     borderTopRightRadius: Sizer.vSize(24),
@@ -280,7 +287,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     ...GLOBALSTYLE.paddingHor,
     overflow: 'hidden',
-
     paddingBottom: Sizer.vSize(100),
   },
   dot: {

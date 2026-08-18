@@ -9,7 +9,7 @@ import {
 import React from 'react';
 
 import { COLORS, GLOBALSTYLE } from '../globalStyle/Theme';
-import { appTexture, SplashBg } from '../assets/images';
+import { appTexture } from '../assets/images';
 import Sizer from '../helpers/Sizer';
 
 const Container = ({
