@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "958632865348",
-    "project_id": "lambs-ad95d",
-    "storage_bucket": "lambs-ad95d.firebasestorage.app"
+    "project_number": "71988442079",
+    "project_id": "selt-fff83",
+    "storage_bucket": "selt-fff83.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:958632865348:android:8b30b2f845235db27c1611",
+        "mobilesdk_app_id": "1:71988442079:android:078f07edcd26ab99b20a6a",
         "android_client_info": {
-          "package_name": "com.Lambs.sh"
+          "package_name": "com.sh.selt"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyD2CChYRBcKjGLmz8I3y_KX-xeZdokg-es"
+          "current_key": "AIzaSyBoBGjn9qFjT_BItgu-RZq7G7ePoFbEqik"
         }
       ],
       "services": {
